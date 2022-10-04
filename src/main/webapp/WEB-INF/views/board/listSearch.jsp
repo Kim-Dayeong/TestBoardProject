@@ -35,7 +35,6 @@
    	<tr><th>글번호</th><th>글 제목</th><th>작성자</th><th>작성일자</th></tr></thead>
     
 
-            <!-- 컨트롤러에서 넘겨준 list 모델 객체를 쓰는 방법을 잘 익혀두자 -->
           
           <!-- 목록 시작 -->
 			<c:forEach items="${list}" var="list">
