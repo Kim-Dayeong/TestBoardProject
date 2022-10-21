@@ -19,7 +19,7 @@
 
  <section id="container">
  
- <c:if test="${msg !== 'login_error'}">
+ <c:if test="${msg != 'login_error'}">
  
   <form role="form" method="post" autocomplete="off">
    <p>

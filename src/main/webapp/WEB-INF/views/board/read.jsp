@@ -44,8 +44,10 @@
    </p>
    <p>
     <label for="writer">작성자</label><input type="text" id="writer" name="writer" value="${read.writer}" readonly="readonly"/>
-    <label>작성 날짜</label> <span><fmt:formatDate value="${read.regdate}" pattern="yyyy-MM-dd" readonly="readonly" /></span>
+    <label>작성 날짜</label> <span><fmt:formatDate value="${read.regdate}" pattern="yyyy-MM-dd"/></span>
    </p>
+ <p><button type = "button" id="upvote_btn">좋아요</button></p>
+   
    
    
  <p>
